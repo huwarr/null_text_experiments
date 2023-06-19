@@ -2,11 +2,19 @@
 
 **Bachelor's Thesis**
 
+## Abstract
+
+Diffusion models have recently demonstrated powerful synthesis capabilities for various types of data, including images. Producing highly realistic samples and introducing a guidance mechanism to control the generation process, these models have initiated new areas of research. The latter includes an ongoing field of study focused on utilizing pre-trained diffusion models to modify real images with consideration to a given textual prompt. Although existing methods have shown considerable results, they still require thorough investigation. In this paper, we analyse a recently introduced approach, Null-Text Inversion for Editing Real Images using Guided Diffusion Models, and propose significant improvements, targeting its challenging domains.
+
+## Code base
+
 This repository provides the code, written and used while working on the thesis.
 
 Our work heavily relies on the authors' implementation of Null-text Inversion with Prompt-to-Prompt: [source](https://github.com/google/prompt-to-prompt/#null-text-inversion-for-editing-real-images)
 
 ## Structure
+
+Refer to the folder `notebooks`.
 
 ### Base approaches
 
